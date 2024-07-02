@@ -31,7 +31,7 @@
 ## Github Statistics
 
 ### Activity
-![Ruth Moraa Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=moraar222&custom_title=alidante254's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=58A60F&line=58A60F&point=F8D847&area_color=0D1117&title_color=58A6FF&area=true)
+![Ruth Moraa Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=moraar222&custom_title=Moraar's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=58A60F&line=58A60F&point=F8D847&area_color=0D1117&title_color=58A6FF&area=true)
 
 ### Trophies
 ![Trophy](https://github-profile-trophy.vercel.app/?username=moraar222&theme=juicyfresh&no-frame=true&no-bg=true&row=1&column=7&title_color=2ED573)
