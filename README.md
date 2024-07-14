@@ -4,7 +4,7 @@
 ![Profile Views](https://profile-counter.glitch.me/moraar222/count.svg)
 
 ## About me
-- 🔭 I’m currently working on SokoBeauty App
+- 🔭 I’m currently working on Mobile Applications
 - 🌱 I’m currently learning UI/UX Design and Data Analysis
 - 👯 I’m looking to collaborate on software development
 - 🤔 I’m looking for help with data analysis
