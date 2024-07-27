@@ -11,7 +11,7 @@ function NavBar() {
   };
 
   const drawer = (
-    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
+    <Box sx={{ width: 200 }} role="presentation" onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
       <List>
         {['Home', 'Service', 'Portfolio', 'Blog', 'Contact'].map((text) => (
           <ListItem button key={text}>
