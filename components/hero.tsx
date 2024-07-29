@@ -8,19 +8,21 @@ function Hero() {
       color: 'white', 
       minHeight: '100vh', 
       display: 'flex', 
-      flexDirection: 'column',
+      flexDirection: { xs: 'column', md: 'row' }, // Column on small screens, row on medium and above
       alignItems: 'center',
-      justifyContent: 'center',
-      textAlign: 'center',
-      position: 'relative', // Ensure the absolute positioning of the image works
-      overflow: 'hidden', // Hide any overflow from the image
+      justifyContent: 'space-between', // Distribute space between elements
+      textAlign: 'left', // Align text to the left
+      position: 'relative', 
+      overflow: 'hidden', 
     }}>
       <Container sx={{ 
         display: 'flex', 
         flexDirection: 'column', 
-        alignItems: 'center',
+        alignItems: 'flex-start', // Align content to the start of the flex container
         justifyContent: 'center',
         zIndex: 1, // Ensure content is above the background image
+        width: { xs: '100%', md: '60%' }, // Responsive width
+        padding: { xs: '2rem', md: '4rem' }, // Responsive padding
       }}>
         <Typography 
           variant="h1" 
@@ -49,9 +51,6 @@ function Hero() {
         src="ruth.png" 
         alt="Ruth Moraa" 
         sx={{ 
-          position: 'absolute',
-          top: 0,
-          left: 0,
           width: { xs: '100%', md: '40%' }, // Responsive width
           height: '100%',
           objectFit: 'cover',
