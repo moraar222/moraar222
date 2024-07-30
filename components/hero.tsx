@@ -49,7 +49,7 @@ function Hero() {
       <Box 
         component="img"
         src="ruth.png" 
-        alt="Ruth Moraah" 
+        alt="Ruth Moraa" 
         sx={{ 
           width: { xs: '100%', md: '40%' }, // Responsive width
           height: '100%',
