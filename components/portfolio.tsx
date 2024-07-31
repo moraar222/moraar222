@@ -6,9 +6,9 @@ function Portfolio() {
     <Box sx={{ backgroundColor: 'black', color: 'white', minHeight: '100vh', padding: { xs: '1rem', sm: '2rem' }, position: 'relative' }}>
       <Container>
         <Box sx={{ textAlign: 'left', marginBottom: '2rem' }}>
-          <Typography variant="h6" sx={{ color: 'green' }}>Portfolio</Typography>
+          <Typography variant="h6" sx={{ color: 'brown' }}>Portfolio</Typography>
           <Typography variant="h3" component="div" sx={{ fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem' }, fontWeight: 'bold' }}>
-            Selected works <br /> 2020-2022
+            Selected works <br /> 2020-2023
           </Typography>
         </Box>
         <Grid container spacing={2}>
@@ -63,7 +63,7 @@ function Portfolio() {
         position: 'absolute',
         bottom: 0,
         width: '100%',
-        backgroundColor: 'green',
+        backgroundColor: 'brown',
         padding: { xs: '0.5rem', sm: '1rem' }, // Responsive padding
         color: 'black',
         fontWeight: 'bold',
@@ -72,7 +72,7 @@ function Portfolio() {
         fontSize: { xs: '0.75rem', sm: '1rem' }, // Responsive font sizes
         zIndex: 1,
       }}>
-        UI/UX DESIGN  ·  DEVELOPMENT  ·  ICON DESIGN  ·  LOGO BRANDING
+        UI/UX DESIGN  · SOFTWARE DEVELOPMENT  ·  ICON DESIGN  ·  LOGO BRANDING
       </Box>
     </Box>
   );

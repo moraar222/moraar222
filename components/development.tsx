@@ -6,7 +6,7 @@ function Development() {
     <Box sx={{ backgroundColor: 'black', color: 'white', minHeight: '100vh', padding: { xs: '1rem', sm: '2rem' }, position: 'relative' }}>
       <Container>
         <Box sx={{ textAlign: 'left', marginTop: '2rem' }}>
-          <Typography variant="h5" component="div" sx={{ fontSize: '1.25rem', color: 'green' }}>
+          <Typography variant="h5" component="div" sx={{ fontSize: '1.25rem', color: 'brown' }}>
             02. Development
           </Typography>
           <Typography variant="body1" sx={{ marginTop: '1rem', fontSize: { xs: '0.875rem', sm: '1rem' } }}>

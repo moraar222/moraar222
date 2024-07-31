@@ -19,7 +19,7 @@ function AboutMe() {
             alignItems: "center",
           }}
         >
-          <Typography variant="h6" sx={{ color: "green" }}>
+          <Typography variant="h6" sx={{ color: "brown" }}>
             About Me
           </Typography>
         </Box>
@@ -77,7 +77,7 @@ function AboutMe() {
               component="div"
               sx={{
                 fontSize: { xs: "1.5rem", sm: "2rem" }, // Responsive font sizes
-                color: "green",
+                color: "brown",
               }}
             >
               312+
@@ -90,7 +90,7 @@ function AboutMe() {
               component="div"
               sx={{
                 fontSize: { xs: "1.5rem", sm: "2rem" }, // Responsive font sizes
-                color: "green",
+                color: "brown",
               }}
             >
               281+

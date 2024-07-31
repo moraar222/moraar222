@@ -8,7 +8,7 @@ function Services() {
         position: 'absolute',
         top: 0,
         width: '100%',
-        backgroundColor: 'green',
+        backgroundColor: 'brown',
         padding: { xs: '0.5rem', sm: '1rem' }, // Responsive padding
         color: 'black',
         fontWeight: 'bold',
@@ -17,17 +17,17 @@ function Services() {
         fontSize: { xs: '0.75rem', sm: '1rem' }, // Responsive font sizes
         zIndex: 1,
       }}>
-        UI/UX DESIGN  ·  DEVELOPMENT  ·  ICON DESIGN  ·  LOGO BRANDING
+        UI/UX DESIGN  · SOFTWARE DEVELOPMENT  ·  ICON DESIGN  ·  LOGO BRANDING
       </Box>
       <Container sx={{ position: 'relative', zIndex: 2 }}>
         <Box sx={{ textAlign: 'center', marginBottom: '2rem' }}>
-          <Typography variant="h6" sx={{ color: 'green' }}>Services</Typography>
+          <Typography variant="h6" sx={{ color: 'brown' }}>Services</Typography>
           <Typography variant="h3" component="div" sx={{ fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem' }, fontWeight: 'bold' }}>
             Available services that I can work on
           </Typography>
         </Box>
         <Box sx={{ textAlign: 'left', marginTop: '2rem' }}>
-          <Typography variant="h5" component="div" sx={{ fontSize: '1rem', color: 'green' }}>
+          <Typography variant="h5" component="div" sx={{ fontSize: '1rem', color: 'brown' }}>
             01. Design Visual
           </Typography>
           <Typography variant="body1" sx={{ marginTop: '1rem', fontSize: { xs: '0.875rem', sm: '1rem' } }}>
