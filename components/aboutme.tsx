@@ -120,7 +120,7 @@ function AboutMe() {
                 color: "brown",
               }}
             >
-              10+
+              3+
             </Typography>
             <Typography variant="body1">Years Experience</Typography>
           </Grid>
