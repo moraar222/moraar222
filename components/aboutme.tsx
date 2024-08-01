@@ -24,12 +24,26 @@ function AboutMe() {
           </Typography>
         </Box>
         <Grid container spacing={4} sx={{ marginTop: "2rem" }}>
+          <Grid item xs={12}>
+            <Grid container spacing={2} alignItems="center">
+              <Grid item>
+                <Typography variant="h3" component="div" sx={{ fontWeight: "bold" }}>
+                  Ruth Moraa
+                </Typography>
+              </Grid>
+              <Grid item>
+                <Typography variant="h5" component="div">
+                  Hello, my name is Ruth Moraa, nice to meet you. I would like to welcome you to my personal portfolio.
+                </Typography>
+              </Grid>
+            </Grid>
+          </Grid>
           <Grid item xs={12} md={6}>
             <Typography
               variant="h3"
               component="div"
               sx={{
-                fontSize: { xs: "1.5rem", sm: "2rem", md: "2.5rem" }, // Responsive font sizes
+                fontSize: { xs: "1.5rem", sm: "2rem", md: "2.5rem" },
                 fontWeight: "bold",
               }}
             >
@@ -51,7 +65,7 @@ function AboutMe() {
               variant="body1"
               sx={{
                 marginTop: { xs: "1rem", sm: "2rem" },
-                fontSize: { xs: "1rem", sm: "1.25rem" }, // Responsive font sizes
+                fontSize: { xs: "1rem", sm: "1.25rem" },
               }}
             >
               Hi, I'm Ruth Moraa. I am a software developer and UI/UX designer
@@ -76,7 +90,7 @@ function AboutMe() {
               variant="h4"
               component="div"
               sx={{
-                fontSize: { xs: "1.5rem", sm: "2rem" }, // Responsive font sizes
+                fontSize: { xs: "1.5rem", sm: "2rem" },
                 color: "brown",
               }}
             >
@@ -89,7 +103,7 @@ function AboutMe() {
               variant="h4"
               component="div"
               sx={{
-                fontSize: { xs: "1.5rem", sm: "2rem" }, // Responsive font sizes
+                fontSize: { xs: "1.5rem", sm: "2rem" },
                 color: "brown",
               }}
             >
@@ -102,7 +116,7 @@ function AboutMe() {
               variant="h4"
               component="div"
               sx={{
-                fontSize: { xs: "1.5rem", sm: "2rem" }, // Responsive font sizes
+                fontSize: { xs: "1.5rem", sm: "2rem" },
                 color: "brown",
               }}
             >
@@ -115,19 +129,19 @@ function AboutMe() {
       <Box
         sx={{
           position: "absolute",
-          bottom: "10%",
-          left: "50%",
-          transform: "translate(-50%, 0)",
+          bottom: "0",
+          left: "0",
+          width: "100%",
           backgroundColor: "brown",
-          padding: { xs: "0.5rem", sm: "1rem" }, // Responsive padding
+          padding: { xs: "0.5rem", sm: "1rem" },
           color: "black",
           fontWeight: "bold",
           textAlign: "center",
           whiteSpace: "nowrap",
-          fontSize: { xs: "0.75rem", sm: "1rem" }, // Responsive font sizes
+          fontSize: { xs: "0.75rem", sm: "1rem" },
         }}
       >
-        UI/UX DESIGN ·SOFTWARE DEVELOPMENT · ICON DESIGN · LOGO BRANDING
+        UI/UX DESIGN · SOFTWARE DEVELOPMENT · ICON DESIGN · LOGO BRANDING
       </Box>
     </Box>
   );

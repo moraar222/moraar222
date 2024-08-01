@@ -6,7 +6,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 function NavBar() {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  const toggleDrawer = (open: boolean) => () => {
+  const toggleDrawer = (open: boolean | ((prevState: boolean) => boolean)) => () => {
     setDrawerOpen(open);
   };
 
@@ -29,7 +29,7 @@ function NavBar() {
 
   return (
     <>
-      <AppBar position="fixed" sx={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
+      <AppBar position="fixed" sx={{ backgroundColor: 'rgba(0, 0, 0, 0.8)', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)' }}>
         <Toolbar>
           <Typography variant="h6" sx={{ flexGrow: 1, fontSize: { xs: '1rem', sm: '1.25rem', md: '1.5rem' } }}>★</Typography>
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
