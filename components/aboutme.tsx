@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <Box
       sx={{
-        backgroundColor: "black",
+        backgroundColor: "",
         color: "white",
         minHeight: "100vh",
         padding: { xs: "1rem", sm: "2rem" },
