@@ -14,7 +14,7 @@ function AboutMe() {
       <Container>
         <Box
           sx={{
-            display: "",
+            display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
           }}
