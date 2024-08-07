@@ -16,7 +16,7 @@ function Collaboration() {
       </Container>
       <Container sx={{ textAlign: 'center', marginTop: '2rem' }}>
         <Typography variant="body2" sx={{ color: 'grey', marginBottom: '2rem' }}>
-          Working in development and design has given me a stronger sense of how structured everything should operate.
+          Working  has given me a stronger sense of how structured everything should operate.
         </Typography>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={6} md={3}>
@@ -35,7 +35,7 @@ function Collaboration() {
       </Container>
       <Box sx={{ textAlign: 'center', marginTop: '2rem' }}>
         <Typography variant="body2" sx={{ color: 'grey' }}>
-          © Ruth Moraa. All rights reserved 2024
+          © Ruth Moraa. All rights reserved 
         </Typography>
       </Box>
     </Box>
