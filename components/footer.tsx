@@ -35,7 +35,7 @@ function Collaboration() {
       </Container>
       <Box sx={{ textAlign: 'center', marginTop: '2rem' }}>
         <Typography variant="body2" sx={{ color: 'grey' }}>
-          © Ruth Moraa. All rights reserved 
+          © Ruth Moraa. All rights reserved 2024
         </Typography>
       </Box>
     </Box>
