@@ -17,7 +17,7 @@ function Services() {
         fontSize: { xs: '0.75rem', sm: '1rem' }, // Responsive font sizes
         zIndex: 1,
       }}>
-        UI/UX DESIGN  · SOFTWARE T  ·  APP DEVELOPMENT ·  WEBSITE DEVELOPMENT
+        UI/UX DESIGN  · SOFTWARE DEVELOPMENT  ·  APP DEVELOPMENT ·  WEBSITE DEVELOPMENT
       </Box>
       <Container sx={{ position: 'relative', zIndex: 2 }}>
         <Box sx={{ textAlign: 'center', marginBottom: '2rem' }}>
