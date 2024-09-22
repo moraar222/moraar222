@@ -6,7 +6,7 @@
 ## About me
 - 🔭 I’m currently working on Mobile Applications
 - 🌱 I’m currently learning UI/UX Design and Data Analysis
-- 👯 I’m looking to collaborate on software development
+- 👯 I’m looking to collaborate on software development and web development 
 - 🤔 I’m looking for help with data analysis
 - 💬 Ask me about Frontend development
 - 📫 How to reach me: email :moraar976@gmail.com
