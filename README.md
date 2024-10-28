@@ -7,11 +7,10 @@
 - 🔭 I’m currently working on Mobile Applications
 - 🌱 I’m currently learning Machine Learning and Data Science
 - 👯 I’m looking to collaborate on software development and web development 
-- 🤔 I’m looking for help with mobile applications
 - 💬 Ask me about Frontend development
 - 📫 How to reach me: email :moraar976@gmail.com
 - 😄 Pronouns: she/her
-- ⚡ Fun fact: I love dancing
+
 
 ## Education and Courses
 [![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white)](https://www.coursera.org/user/alidante)
