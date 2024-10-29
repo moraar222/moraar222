@@ -9,7 +9,7 @@
 - 👯 I’m looking to collaborate on software development and web development 
 - 💬 Ask me about Frontend development
 - 📫 How to reach me: email :moraar976@gmail.com
-- 😄 Pronouns: she/her
+
 
 
 ## Education and Courses
