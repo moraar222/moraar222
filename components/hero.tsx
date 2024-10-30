@@ -3,9 +3,10 @@ import { Container, Box, Typography } from '@mui/material';
 
 function Hero() {
   return (
-    <Box id="hero"
+    <Box
+      id="hero"
       sx={{
-        backgroundColor: 'black',
+        backgroundColor: 'black', // Retained the black background
         color: 'white',
         minHeight: '100vh',
         display: 'flex',
@@ -21,7 +22,6 @@ function Hero() {
         sx={{
           display: 'flex',
           flexDirection: 'column',
-          alignItems: 'flex-start',
           justifyContent: 'center',
           zIndex: 1,
           width: { xs: '100%', md: '60%' },
@@ -32,9 +32,12 @@ function Hero() {
           variant="h1"
           component="div"
           sx={{
-            fontSize: { xs: '2rem', sm: '3rem', md: '4rem' },
+            fontSize: { xs: '2.5rem', sm: '3.5rem', md: '4.5rem' },
+            letterSpacing: '0.05em',
+            color: '#ff6347', // Bright coral for the name to make it stand out
+            marginBottom: '1rem',
             fontWeight: 'bold',
-            marginBottom: 0,
+            textShadow: '2px 2px 10px rgba(255, 99, 71, 0.5)', // Added a subtle glow effect
           }}
         >
           Ruth Moraa
@@ -42,45 +45,36 @@ function Hero() {
         <Typography
           variant="body1"
           sx={{
-            marginTop: '0.5rem', // Add spacing between the two texts
+            marginTop: '0.5rem',
             fontSize: { xs: '1rem', sm: '1.25rem', md: '1.5rem' },
-            padding: 0,
+            color: '#b0e0e6', // Light turquoise for a fresh, modern look
+            maxWidth: '90%',
+            lineHeight: '1.6',
           }}
         >
-          Hello, my name is Ruth Moraa, nice to meet you. I would like to welcome you to my personal portfolio.
+          Hello, I’m Ruth Moraa. Welcome to my personal portfolio, where I share my journey and passion in UI/UX design and software development.
         </Typography>
       </Container>
 
       <Box
         component="img"
-        src="ruth.png"
+        src="Ruth.jpeg"
         alt="Ruth Moraa"
         sx={{
           width: { xs: '100%', md: '40%' },
           height: { xs: 'auto', md: '100%' },
           maxHeight: { xs: '300px', sm: '400px', md: '500px' },
           objectFit: 'cover',
-          opacity: 0.7,
+          borderRadius: '1rem',
+          boxShadow: '0px 10px 30px rgba(0, 0, 0, 0.5)',
+          opacity: 0.9,
+          transition: 'opacity 0.4s ease-in-out, transform 0.4s ease-in-out',
+          '&:hover': {
+            opacity: 1,
+            transform: 'scale(1.05)',
+          },
         }}
       />
-
-      <Box
-        sx={{
-          position: 'absolute',
-          bottom: 0,
-          left: 0,
-          width: '100%',
-          backgroundColor: 'brown',
-          padding: { xs: '0.5rem', sm: '1rem' },
-          color: 'black',
-          fontWeight: 'bold',
-          textAlign: 'center',
-          whiteSpace: 'nowrap',
-          fontSize: { xs: '0.75rem', sm: '1rem' },
-        }}
-      >
-        UI/UX DESIGN · SOFTWARE DEVELOPMENT · ICON DESIGN · LOGO BRANDING
-      </Box>
     </Box>
   );
 }
